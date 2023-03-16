@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table{
+            border: 10px black;
+            box-shadow: 10px 10px 31px 0px rgba(0,0,0,0,75);
+            -webkit-box-shadow: 10px 10px 31px 0px rgba(0,0,0,0,75);
+            -moz-box-shadow: 10px 10px 31px 0px rgba(0,0,0,0,75);
+        }
+        table thead td{
+            background-color: black;
+            color: white;
+        }
+        table tbody tr:hover td {
+            background-color: aqua;
+            cursor: pointer;
+        }
+        table tbody td{
+            background-color: lightgray;
+            color: rgb(0, 0, 0);
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Link</a></li>
+                <li><a href="horario.html">horario de atendimento</a></li>
+                <li><a href="Sobre.html">sobre</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="CLINICA DE SAUDE (1).png" width="1000">
+            </div>
+    
+            <div class="content">
+                <table widht="250" align="center" cellspacing="0" cellpadding="5">
+                    <thead>
+                    <tr>
+                       <td><h1><i>Horario de</i></h1></td>
+                       <td><h1><i></i>Atendimento</i></h1></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Seg</td>
+                      <td>09:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Ter</td>
+                      <td>09:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                       <td>Qua</td>
+                      <td>09:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Qui</td>
+                      <td>09:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sex</td>
+                      <td>09:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sab</td>
+                      <td>09:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Dom</td>
+                      <td>09:00 - 20:00</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <center>
+                    <p><h2>email: clinicadesaude@gmail.com</h2></p>  <p><h2>whatsapp: (69) 98315-2655</h2></p><br>
+                    <p><h1>Todos os direitos reservados - 2023 </h1></p>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
